@@ -3,27 +3,27 @@
     <head>
         <title>Konversi Celsius ke Farenheit</title> 
         <link rel="stylesheet" href="style.CSS"> 
+        <script src="script.js"></script>
     </head>
     <body>
-        <div>
-        <script src="script.jss"></script>
-        <h1>Kalkulator Konversi Satuan Dari Celsius ke Farenheit</h1>
-        <label>Masukan suhu Celsius yang ingin di konversi di bawah ini lalu klik konversi untuk melihat hasilnya dalam bentuk Farenheit</label>
-        <br>
-        <label>Celsius (C)</label>
-        <br>
-        <input type="number" id="celsius" >
-        <br>
-        <button oneclick="showcelsius">Konversi</button><button>reset</button>
-        <br>
-        <label>Farenheit (F)</label>
-        <br>
-        <input type="number" id="farenheit" >
-        <br>
-        <label>Cara Menghitung</label>
-        <br>
-        <input type="text">
-        </div>
+            <h1>Temperature Konversion</h1>
+            <div>
+                <label>Masukan suhu Celsius yang ingin di konversi di bawah ini lalu klik konversi untuk melihat hasilnya dalam bentuk Farenheit</label>
+                <br>
+                <label>Celsius (C)</label>
+                <br>
+                <input id="celsius" type="number">
+                <br>
+                <button onclick="operation()">Konversi</button><button>reset</button>
+                <br>
+                <label>Farenheit (F)</label>
+                <br>
+                <input type="number" id="farenheit" >
+                <br>
+                <label>Cara Menghitung</label>
+                <br>
+                <input type="text">
+            </div>
 
         
     </body>
