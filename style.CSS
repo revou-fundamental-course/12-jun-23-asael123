@@ -44,3 +44,11 @@ input {
     text-align: start;
     font-size: 25px;
 }
+
+#op {
+    background-color:  #4CAF50;
+}
+
+#res {
+    background-color: #F44336;;
+}
